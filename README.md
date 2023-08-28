@@ -1,4 +1,4 @@
-##How to run:
+## How to run:
 
 1. Download repository on your computer with the command:
 `git clone _repository_url_ `
@@ -13,7 +13,7 @@ Or, if you have Docker installed:
 2. From the repository with the docker-compose file, run:
 `docker compose up -d`
 
-##Description
+## Description
 
 The game is going to be accessible on the assigned port on your localhost.
 
