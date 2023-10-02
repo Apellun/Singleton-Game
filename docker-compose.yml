@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  game:
+    image: apellun/game:latest
+    ports:
+      - 8000:5000
+    restart: always
+    environment:
+      - FLASK_ENV="development"
+      - FLASK_APP=app:app
