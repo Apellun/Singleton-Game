@@ -12,7 +12,7 @@ The terminal will display a localhost link which leads to the game.
 
 Or, if you have Docker installed:
 
-1. Copy the game/docker-compose.yml file to your computer.
+1. Copy the docker-compose.yml file to your computer.
 2. In terminal, from the repository with the docker-compose file, run:
 `docker compose up -d`
 
@@ -23,6 +23,8 @@ After that, go to Docker and open the game by the running container link.
 It is a game with two characters, for each you can choose one of two classes, one of three armors, and one of three weapons. Each class grants a special skill, that a hero can use in battle. Heroes can attack each other, using a simple hit or a skill, or skip turns. The damage of the attack depends on the hero's class, stamina, and the equipment stats, whether the hero can use a skill or not depends on his stamina as well. The hero who lost all of his health points first loses.
 
 This project was an exercise in object-oriented programming, as well as an example of the not-so-harmful use of the singleton pattern. The frontend part was provided by course tutors.
+
+Currently, I am working on making a docker-compose file with a properly implemented NGINX for this project.
 
 <i>The readme in Russian starts here.</i>
 
@@ -38,7 +40,7 @@ This project was an exercise in object-oriented programming, as well as an examp
 
 Или, если у вас утсановлен Докер:
 
-1. Скопируйте файл game/docker-compose.yml на компьютер.
+1. Скопируйте файл docker-compose.yml на компьютер.
 2. В терминале, из папки с файлом docker-compose, введите команду:
 `docker compose up -d`
 
